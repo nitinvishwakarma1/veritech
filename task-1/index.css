@@ -1,0 +1,120 @@
+*{
+    font-family: candara;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+}
+
+.aboutBlock {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    border-bottom: 5px dashed rgba(23, 6, 53, 0.769);
+    /* background-color: aqua; */
+}
+
+.aboutBlock p {
+    text-align: center;
+}
+
+.row {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: 1px solid rgb(237, 237, 237);
+    background-color: aliceblue;
+
+}
+
+.member {
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.116);
+    /* background-color: aqua; */
+}
+
+.profileIcon,
+.profileIcon img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.teamHeader {
+    background-color: rgba(23, 6, 53, 0.769);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom-right-radius: 100%;
+    color: aliceblue;
+}
+
+.copyright {
+    background-color: rgba(28, 28, 29, 0.062);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#logo {
+    width: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f0f0f0b7;
+        border: 1px solid #ccc;
+        /* background-color: rgb(128, 2, 0); */
+    }
+    .inside{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+        padding: 0; 
+        background-color: #f0f0f0b7;
+        border: 1px solid #70707081;
+        /* background-color: rgb(128, 124, 0); */
+
+    }
+    .row {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        background-color: whitesmoke;
+    }
+
+    .member {
+        width: 82%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        background-color: rgba(0, 0, 0, 0.386);
+    }
+
+    .teamHeader {
+        background-color: rgba(23, 6, 53, 0.769);
+        padding: 20px;
+        border-radius: 10px;
+        border-bottom-right-radius: 60%;
+        color: aliceblue;
+    }
+}
