@@ -7,7 +7,7 @@
     margin: auto;
     padding: 20px;
     background-color: whitesmoke;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 
 .aboutBlock {
@@ -19,9 +19,7 @@
     /* background-color: aqua; */
 }
 
-.aboutBlock p {
-    text-align: center;
-}
+
 
 .row {
     width: 90%;
@@ -89,7 +87,7 @@
         margin-top: 10px;
         padding: 0; 
         background-color: #f0f0f0b7;
-        border: 1px solid #70707081;
+        border: 1px solid rgb(237, 237, 237);
         /* background-color: rgb(128, 124, 0); */
 
     }
