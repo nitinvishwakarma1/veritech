@@ -27,7 +27,6 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    border: 1px solid rgb(237, 237, 237);
     background-color: aliceblue;
 
 }
@@ -78,7 +77,6 @@
         margin: auto;
         padding: 20px;
         background-color: #f0f0f0b7;
-        border: 1px solid #ccc;
         /* background-color: rgb(128, 2, 0); */
     }
     .inside{
@@ -87,7 +85,6 @@
         margin-top: 10px;
         padding: 0; 
         background-color: #f0f0f0b7;
-        border: 1px solid rgb(237, 237, 237);
         /* background-color: rgb(128, 124, 0); */
 
     }
