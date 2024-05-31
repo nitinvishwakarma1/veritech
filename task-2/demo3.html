@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
+    <style>
+        body {
+            background-color: #fff;
+            font-size: 1em;
+            font-family: sans-serif;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .btn-group {
+            border-radius: 100px;
+        }
+
+
+        .btn-group .btn+.btn {
+            margin-left: 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+
+        .btn {
+            border-radius: 100px;
+        }
+
+        .btn:focus, 
+        .btn:active {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .light-mode {
+            background-color: #eee;
+            color: #111;
+            transition: all 0.5s ease;
+        }
+        
+        .light-mode .btn-group {
+            border: 10px solid rgba(0,0,0,0.03);
+            transition: all 0.5s ease;
+        }
+        
+        .light-mode .btn {
+            background: #ccc;
+            color: #444;
+        }
+        
+        .light-mode .btn:hover,
+        .light-mode .btn:active {
+            background-color: #bbb;
+        }
+
+        .dark-mode {
+            background-color: #111;
+            color: #eee;
+            transition: all 0.5s ease;
+        }
+        
+        .dark-mode .btn-group {
+            border: 10px solid rgba(255,255,255,0.05);
+            transition: all 0.5s ease;
+        }
+
+        .dark-mode .btn {
+            background: #444;
+            color: #fff;
+        }
+
+        .dark-mode .btn:hover, 
+        .dark-mode .btn:active {
+            background-color: #333;
+        }
+
+        .btn.active {
+            background-color: rgba(0,0,0,0);
+        }
+    </style>
+    <script>
+        function toggleLight() {
+        var body = document.getElementById("body");
+        var currentClass = body.className;
+        body.className = currentClass == "dark-mode" ? "light-mode" : "light-mode";
+        }
+
+        function toggleDark() {
+        var body = document.getElementById("body");
+        var currentClass = body.className;
+        body.className = currentClass == "light-mode" ? "dark-mode" : "dark-mode";
+        }
+
+        $(".btn-group > .btn").click(function(){
+        $(".btn-group > .btn").removeClass("active");
+        $(this).addClass("active");
+        });
+    </script>
+</head>
+<body id="body" class="light-mode">
+    <h1>Dark &amp; Light Mode Switcher</h1>
+     
+    <div class="btn-group btn-group-toggle mb-3">
+        <button id="light" type="button" class="active btn pr-4 pl-4 border-0" onclick="toggleLight()">Light</button>
+        <button id="dark" type="button" class="btn pr-4 pl-4 border-0" onclick="toggleDark()">Dark</button>   
+    </div>
+    
+    <p>Press the button above to toggle.</p>
+</body>
+
+</html>

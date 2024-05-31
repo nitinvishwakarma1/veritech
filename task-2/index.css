@@ -1,0 +1,591 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:#0d273d;
+}
+.logo{
+  margin-left: 20%;
+  width: 40%;
+}
+.footer-logo{
+  /* background-color: aqua; */
+  margin-top: 5%;
+  width: 15%;
+}
+.first-img{
+  width:100%;
+   height:50%;
+}
+.dropdown-menu,footer{
+  background-color:#0d273d;
+}
+.footer-a a{
+  margin-right: 2%;
+  color: white;
+  text-decoration: solid;
+}
+/* li a:hover{
+   color: black;
+}
+.dropdown-item:hover{
+  color: black;
+} */
+div {
+    display: block;
+}
+.carousel{
+  width: 90%;
+  margin-left: 5%;
+}
+.sliderheadings{
+  font-size: 300%;
+  font-weight: bold;
+}
+.ourgoals{
+  width: 70%;
+  margin-left: 16%;
+}
+.goalsheading{
+  margin-left: 5.8%;
+  margin-bottom: 1%;
+}
+.forever{
+  width: 100%;
+}
+.faqs{
+  width:100% 
+}
+.col1,.col2{
+  width: 50%;
+}
+.donate{
+  background-image: url(img/DonateTiger.png);
+  background-repeat: no-repeat;
+  background-size:100% ;
+  height: 42em;
+  width: 100%;
+}
+.donate-heading{
+  width: 25%;
+  margin-top: 9%;
+  margin-left: 6%;
+}
+.donate-btn{
+  width: 35%;
+  margin-left: 6%;
+}
+.btn{
+  width: 25%;
+  height: 3em;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 2.5%;
+}
+.other{
+  width: 25%;
+  height:3em;
+  margin-left: 6.4%;
+  background-color: rgb(246, 241, 189);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.submit{
+  width: 27%;
+  height:3em;
+  margin-left: 6.4%;
+  background-color: rgb(255, 193, 7);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.videos{
+  /* padding-top: 4%;
+  width: 100%;
+  padding-left: 12%; */
+  /* background-color: rgb(253, 237, 237); */
+}
+.videoheading{
+  margin-left: 3.5%;
+}
+.video-blocks{
+  /* margin-left: 4%; */
+}
+
+@media only screen and (max-width: 768px) 
+{
+  *{
+    box-sizing: border-box;
+    margin: 0%;
+  }
+  .navbar{
+      background-color:#0d273d;
+  }
+  .logo{
+    margin-left: 20%;
+    width: 40%;
+  }
+  .footer-logo{
+    /* background-color: aqua; */
+    margin-top: 5%;
+    width: 15%;
+  }
+  .dropdown-menu,footer{
+    background-color:#0d273d;
+  }
+  .footer-a a{
+    margin-right: 2%;
+    color: white;
+    text-decoration: solid;
+  }
+  .first-img{
+    width:100%;
+    height:50%;
+  }
+  div {
+      display: block;
+  }
+
+  #carouselExampleDark{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .sliderheadings{
+    font-size: 300%;
+    font-weight: bold;
+  }
+  .ourgoals{
+    width: 100%;
+    /* background-color: #0d273d; */
+    margin-left: 0%;
+  }
+  .card{
+    margin-right: 3%;
+  }
+  .goalsheading{
+    margin-left: 5.8%;
+    margin-bottom: 1%;
+  }
+  .faqs{
+    width:100% 
+  }
+  .col1,.col2{
+    width: 50%;
+  }
+  .donate{
+    background-image: url(img/DonateTiger.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 23.5em;
+    width: 100%;
+  }
+  .donate-heading{
+    width: 40%;
+    margin-top: 10%;
+    /* background-color: aqua; */
+    margin-left: 6%;
+  }
+  .donate-heading h1{
+    font-size:20px;
+    font-weight:bold;
+  }
+  .donate-btn{
+    width: 60%;
+    margin-left: 6%;
+  }
+  .btn{
+    width: 25%;
+    height: 3em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 2.5%;
+  }
+  .other{
+    width: 25%;
+    height:3em;
+    margin-left: 6.5%;
+    background-color: rgb(246, 241, 189);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .submit{
+    width: 27%;
+    height:3em;
+    margin-left: 6.5%;
+    background-color: rgb(255, 193, 7);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .videos{
+    padding-top: 4%;
+    width: 100%;
+    margin-left: 0%;
+    /* padding-left: 12%; */
+    /* background-color: rgb(31, 134, 213); */
+  }
+  .videoheading{
+    margin-left: 3.5%;
+  }
+  .video-blocks{
+    margin-left: 0%;
+    /* background-color: aqua; */
+  }
+
+  i{
+    width: 100%;
+    height: 40px;
+    /* background-color: aqua; */
+  }
+  .btn-outline-light{
+    height: 50px;
+  }
+  .footer-logo img{
+    width: 150%;
+    /* background-color: aqua; */
+  }
+
+  }
+@media only screen and (max-width: 575px) 
+{
+  *{
+    box-sizing: border-box;
+    margin: 0%;
+  }
+  .navbar{
+      background-color:#0d273d;
+  }
+  .logo{
+    margin-left: 20%;
+    width: 40%;
+  }
+  .footer-logo{
+    /* background-color: aqua; */
+    margin-top: 5%;
+    width: 15%;
+  }
+  .dropdown-menu,footer{
+    background-color:#0d273d;
+  }
+  .footer-a a{
+    margin-right: 2%;
+    color: white;
+    text-decoration: solid;
+  }
+  .first-img{
+    width:100%;
+    height:50%;
+  }
+  div {
+      display: block;
+  }
+
+  #carouselExampleDark{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .sliderheadings{
+    font-size: 200%;
+    font-weight: bold;
+  }
+  .ourgoals{
+    width: 100%;
+    /* background-color: #0d273d; */
+    margin-left: 0%;
+  }
+  .card{
+    margin-right: 3%;
+  }
+  .goalsheading{
+    margin-left: 5.8%;
+    margin-bottom: 1%;
+  }
+  .faqs{
+    width:100% 
+  }
+  .col1,.col2{
+    width: 50%;
+  }
+  .donate{
+    background-image: url(img/DonateTiger.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    height: 18.8em;
+    width: 100%;
+    /* background-color: aqua;
+    border: 5px solid red; */
+  }
+  .donate-heading{
+    width: 45%;
+    margin-top: 5%;
+    /* background-color: aqua; */
+    margin-left: 6%;
+  }
+  .donate-heading h1{
+    font-size:20px;
+    font-weight:bold;
+  }
+  .donate-btn{
+    width: 60%;
+    margin-left: 6%;
+  }
+  .btn{
+    width: 25%;
+    height: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 2.5%;
+  }
+  .other{
+    width: 25%;
+    height:2.5em;
+    margin-left: 6.5%;
+    background-color: rgb(246, 241, 189);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .submit{
+    width: 27%;
+    height:2.5em;
+    margin-left: 6.5%;
+    background-color: rgb(255, 193, 7);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1.3%;
+    /* padding-bottom: 6%; */
+
+    font-size: 16px;
+  }
+  .videos{
+    padding-top: 4%;
+    width: 100%;
+    margin-left: 0%;
+    /* padding-left: 12%; */
+    /* background-color: rgb(31, 134, 213); */
+  }
+  .videoheading{
+    margin-left: 3.5%;
+  }
+  .video-blocks{
+    margin-left: 0%;
+    /* background-color: aqua; */
+  }
+
+  i{
+    width: 50%;
+    /* background-color: aqua; */
+  }
+  .btn-outline-light{
+    height: 60px;
+  }
+  .footer-logo img{
+    width: 200%;
+    /* background-color: aqua; */
+  }
+  }
+
+  @media only screen and (max-width: 480px){
+    #carouselExampleDark{
+      width: 100%;
+      margin-left: 0%;
+    }
+    .sliderheadings{
+      font-size: 180%;
+      font-weight: bold;
+    }
+    .slider-caption{
+      font-size: 80%;
+      /* font-weight: bold;      */
+    }
+    .donate{
+      background-image: url(img/DonateTiger.png);
+      background-repeat: no-repeat;
+      background-size:100%;
+      height: 18.8em;
+      width: 100%;
+      /* background-color: aqua;
+      border: 5px solid red; */
+    }
+    .donate-heading{
+      width: 50%;
+      /* background-color: aqua; */
+      margin-left: 6%;
+    }
+    .donate-heading h1{
+      font-size:14px;
+      font-weight:bold;
+    }
+    .donate-btn{
+      width: 57.5%;
+      margin-left: 6%;
+    }
+    .btn{
+      width: 25%;
+      height: 2em;
+      text-align: center;
+      font-weight: bold;
+      font-size: 15px;
+      /* margin-right: 8%; */
+      padding-top: 2.5%;
+    }
+    .other{
+      width: 25%;
+      height:3em;
+      margin-left: 6.5%;
+      background-color: rgb(246, 241, 189);
+      text-align: center;
+      font-weight: bold;
+      font-size: 10px;
+    
+    }
+    .submit{
+      width: 25%;
+      height:3em;
+      margin-left: 6.5%;
+      background-color: rgb(255, 193, 7);
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 5%;
+      padding-top: 1.3%;
+      /* padding-bottom: 6%; */
+      font-size: 10px;
+    }
+    .videos{
+      padding-top: 4%;
+      width: 100%;
+      margin-left: 0%;
+      /* padding-left: 12%; */
+      /* background-color: rgb(31, 134, 213); */
+    }
+    .videoheading{
+      margin-left: 3.5%;
+    }
+    .video-blocks{
+      margin-left: 0%;
+      /* background-color: aqua; */
+    }
+  
+    i{
+      width: 100%;
+      height: 40px;
+      /* background-color: aqua; */
+    }
+    .btn-outline-light{
+      height: 50px;
+    }
+    .footer-logo img{
+      width: 250%;
+      /* background-color: aqua; */
+    }
+  
+  }
+
+li a{
+  color:white;
+}
+
+
+
+  @media only screen and (max-width: 360px){
+    #carouselExampleDark{
+      width: 100%;
+      margin-left: 0%;
+    }
+    .sliderheadings{
+      font-size: 120%;
+      font-weight: bold;
+    }
+    .slider-caption{
+      font-size: 50%;
+      /* font-weight: bold;      */
+    }
+    .donate{
+      background-image: url(img/DonateTiger.png);
+      background-repeat: no-repeat;
+      background-size:100%;
+      height: 18.8em;
+      width: 100%;
+      /* background-color: aqua;
+      border: 5px solid red; */
+    }
+    .donate-heading{
+      width: 60%;
+      margin-top: .5%;
+      margin-left: 6%;
+    }
+    .donate-heading h1{
+      font-size:11px;
+      font-weight:bold;
+    }
+    .donate-btn{
+      width:76%;
+      margin-left: 6%;
+    }
+    .btn{
+      width: 25%;
+      height: 2em;
+      text-align: center;
+      font-weight: bold;
+      font-size: 12px;
+      /* margin-right: 8%; */
+      padding-top: 2.5%;
+    }
+    .other{
+      width: 35%;
+      height:2.5em;
+      margin-left: 6.5%;
+      background-color: rgb(246, 241, 189);
+      text-align: center;
+      font-weight: bold;
+      font-size: 10px;
+    
+    }
+    .submit{
+      width: 35%;
+      height:2.5em;
+      margin-left: 6.5%;
+      background-color: rgb(255, 193, 7);
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 5%;
+      padding-top: 1.3%;
+      /* padding-bottom: 6%; */
+      font-size: 10px;
+    }
+    .videos{
+      padding-top: 4%;
+      width: 100%;
+      margin-left: 0%;
+      /* padding-left: 12%; */
+      /* background-color: rgb(31, 134, 213); */
+    }
+    .videoheading{
+      margin-left: 3.5%;
+    }
+    .video-blocks{
+      margin-left: 0%;
+      /* background-color: aqua; */
+    }
+
+    i{
+      width: 100%;
+      height: 40px;
+      /* background-color: aqua; */
+    }
+    .btn-outline-light{
+      height: 50px;
+    }
+    .footer-logo img{
+      width: 400%;
+      /* background-color: aqua; */
+    }
+  
+  }
+
+
